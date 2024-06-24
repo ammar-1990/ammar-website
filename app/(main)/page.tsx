@@ -28,9 +28,9 @@ const MainSection = () => {
     "AI Integration"
   ];
   return (
-    <section className="con relative   min-h-[calc(100vh-70px)]">
+    <section className=" relative   min-h-[calc(100vh-70px)] 3xl:min-h-[80vh]">
       <GridSmallBackgroundDemo />
-      <div className="relative z-10 h-full flex items-center justify-center pt-16 sm:pt-32 flex-col ">
+      <div className="con relative z-10 h-full flex items-center justify-center pt-16 sm:pt-32 flex-col ">
         {/* h1 */}
         <h1 className="text-center">
           <p className="headers font-bold">Build the Best SaaS Applications</p>
