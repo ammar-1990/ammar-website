@@ -10,13 +10,13 @@ const NavLinks = (props: Props) => {
 
     const links = [
         {
-            Label:"Services",
-            href:'/services',
-            active:pathname === '/services'
-        },
-        {
             Label:"Portfolio",
             href:'/portfolio',
+                 active:pathname === '/services'
+        },
+        {
+            Label:"Services",
+            href:'/services',
             active:pathname === '/portfolio'
         },
         {
