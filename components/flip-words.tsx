@@ -79,7 +79,7 @@ if(!mount) return null
               delay: index * 0.08,
               duration: 0.4,
             }}
-            className="inline-block  bg-gradient-to-b from-indigo-300 to-indigo-700 bg-clip-text text-transparent"
+            className="inline-block  bg_gradient bg-clip-text text-transparent"
           >
             {letter}
           </motion.span>

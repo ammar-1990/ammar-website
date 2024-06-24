@@ -76,9 +76,14 @@
   }
 
   .con {
-    @apply max-w-[1200px] mx-auto px-4
+    @apply max-w-[1200px] mx-auto px-8 3xl:max-w-[1400px]
+  }
+
+  .bg_gradient {
+    @apply bg-gradient-to-b from-indigo-300 to-indigo-700
   }
 
   .headers { 
-    @apply 2xl:text-7xl lg:text-6xl md:text-5xl  sm:text-4xl   text-3xl
+    @apply 3xl:text-7xl 2xl:text-6xl  md:text-5xl  sm:text-4xl   text-3xl
   }
+

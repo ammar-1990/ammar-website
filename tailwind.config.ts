@@ -25,6 +25,12 @@ const config = {
       },
     },
     extend: {
+      screens:{
+ 
+          '3xl': '1600px',  // You can adjust the pixel value as needed
+          '4xl': '1920px',  // You can adjust the pixel value as needed
+    
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
