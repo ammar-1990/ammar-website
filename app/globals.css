@@ -74,3 +74,11 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .con {
+    @apply max-w-[1100px] mx-auto px-4
+  }
+
+  .headers { 
+    @apply 2xl:text-6xl lg:text-4xl md:text-4xl sm:text-3xl  text-2xl
+  }
