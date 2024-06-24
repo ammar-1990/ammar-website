@@ -57,7 +57,7 @@ const MainSection = () => {
         </div>
         {/* Get started button */}
 
-        <Button className="mt-32" variant={'site'}>Get Started</Button>
+        <Button className="mt-24" variant={'site'}>Get Started</Button>
       </div>
     </section>
   );
