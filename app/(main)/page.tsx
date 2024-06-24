@@ -23,8 +23,9 @@ const MainSection = () => {
   const bulletPoints = [
     "Bring Ideas To Life",
     "Improve  Your Business",
-    "Elevate Your Digital Presence",
-    "Design Your Future",
+    "Business Automation",
+    "Lead Generation",
+    "AI Integration"
   ];
   return (
     <section className="con relative   min-h-[calc(100vh-70px)]">
