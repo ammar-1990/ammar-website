@@ -31,7 +31,7 @@ const MainSection = () => {
       <div className="relative z-10 h-full flex items-center justify-center pt-32 flex-col ">
         <h1 className="text-center">
           <p className="headers font-bold">Build the Best SaaS Applications</p>
-          <p className="headers font-bold md:mt-2 mt-6">
+          <p className="headers font-bold sm:mt-1 mt-3">
             Materialize Your{" "}
             <FlipWords words={["Dream", "Plans", "Ideas", "Goals"]} /> Now
           </p>
