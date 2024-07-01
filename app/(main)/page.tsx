@@ -35,7 +35,7 @@ const MainSection = () => {
           <p className="headers font-bold">Build the Best SaaS Applications</p>
           <p className="headers font-bold sm:mt-1 mt-3">
             Materialize Your{" "}
-            <FlipWords words={["Dream", "Plans", "Ideas", "Goals"]} /> Now
+           <span className="lg:min-w-[200px] min-w-[100px] text-start inline-block"><FlipWords words={["Dream", "Plans", "Ideas", "Goals"]} /></span>  Now
           </p>
         </h1>
         {/* paragraph */}
