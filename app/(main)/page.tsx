@@ -23,9 +23,8 @@ const MainSection = () => {
   const bulletPoints = [
     "Bring Ideas To Life",
     "Improve  Your Business",
-    "Business Automation",
-    "Lead Generation",
-    "AI Integration"
+    "Build Future-Ready Solutions",
+ "Innovate, Scale, Succeed",
   ];
   return (
     <section className=" relative   min-h-[calc(100vh-70px)] 3xl:min-h-[80vh]">
@@ -45,11 +44,11 @@ const MainSection = () => {
           the most advanced tech stacks available.
         </p>
         {/* bullet points */}
-        <div className="grid grid-cols-1 xs:grid-cols-2 mt-14 gap-y-1 gap-x-4 sm:gap-x-12 ">
+        <div className="flex items-center justify-between gap-8 mt-14 flex-wrap ">
           {bulletPoints.map((point) => (
             <h2
               key={point}
-              className="flex items-center gap-2   text-gray-600 font-semibold text-xs sm:text-base "
+              className="flex items-center gap-2   text-gray-600 font-semibold text-[10px] sm:text-xs shrink-0 "
             >
               <CheckCircle className="shrink-0" size={16} />
               {point}
